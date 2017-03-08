@@ -1,0 +1,52 @@
+/* General styles here */
+body{
+	margin: 0;
+}
+/* Nav */
+.navigation{
+	width: 100%;
+	text-align: right;
+	position: fixed;
+	top:0;
+	background: black;
+	padding: 40px 0;
+	box-shadow: 0px 1px 3px lightgrey;
+	z-index: 2;
+}
+
+.navigation a{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.navigation a:hover{
+	background: lightgrey;
+	transition: 0.5s all;
+}
+
+.navbar{
+	position: static;
+	color: white;
+}
+.logo{
+	margin: 0px;
+	color: white;
+	display: inline-block;
+	padding-left: 16px;
+}
+
+.under{
+	font-weight: lighter;
+}
+/* Header */
+
+/* Body content */
+/* Media Queries */
+@media (max-width: 690px){
+
+}
